@@ -64,6 +64,7 @@
                     <c:otherwise>
                         <div class="navbar-item">
                             <div class="buttons">
+                                <a href="/user/register" class="button is-primary">Register</a>
                                 <a href="/user/login" class="button is-primary">Login</a>
                             </div>
                         </div>

@@ -56,7 +56,7 @@ public class AdminController {
     @GetMapping("/delete/{gameId}")
     public String deleteGame(@PathVariable("gameId") String gameId) {
         gameRepository.deleteById(gameId);
-        return "";
+        return "game-list";
     }
 
     @PostMapping("/game-mod")
